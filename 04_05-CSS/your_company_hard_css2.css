@@ -1,0 +1,36 @@
+body {
+	width : 800px;
+	background-color: darkred;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+}
+
+.box {  display:table;
+	text-align: center;
+	
+ }
+ .orange {
+ 	color:  rgb(242, 136, 7);
+ 	border-bottom: rgb(242, 136, 7);
+ }
+ footer {
+	background-color: rgb(242, 136, 7);
+	color: white;
+	font-size: 20px;
+	 text-align: center;
+	}
+p, .orange, .text_nav { font-size:  18px;
+  }
+  .gray {
+	color:  black;
+	background-color: lightgray;
+}
+.text, .text_nav {
+	color:  white;
+}
+.title_gray {
+	color:  black;
+	background-color: gray;
+}
+
