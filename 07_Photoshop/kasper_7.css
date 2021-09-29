@@ -1,0 +1,109 @@
+html, body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1170px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #121116;
+}
+
+
+a {
+    text-decoration-line: none;
+
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 118px;
+    margin-bottom: 38px;
+    width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: stretch;
+}
+
+.logo {
+    padding-bottom: 55px;
+}
+
+.social {
+    width: 230px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 400;
+    text-align: center;
+    border-bottom: 1px solid white;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.icons {  margin:  0 15px;
+    margin-bottom: 90px;
+    text-align: center;
+
+}
+
+.icons a:not(:last-child) {
+    margin-right: 35px;
+}
+
+/* .Facebook {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 886px;
+  top: 263px;
+  width: 7px;
+  height: 15px;
+  z-index: 9;
+}
+
+.Twetter {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 927px;
+  top: 265px;
+  width: 15px;
+  height: 12px;
+  z-index: 8;
+}
+
+.Google {
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  left: 977px;
+  top: 265px;
+  width: 16px;
+  height: 15px;
+  z-index: 10;
+} */
+
+.color_kasper {
+    color:  rgb(28, 237, 237);
+     font-size: 12px;
+}
+
+.copyright {
+    font-size: 12px;
+    color: #ffffff;
+}
+.kasper {
+     text-align: center;
+  font-size: 15px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  line-height: 1.2;
+ 
+}
+
+.kasper_logo {
+    text-align: center;
+}
+.social_center {
+  margin:  0 auto;
+}
