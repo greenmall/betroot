@@ -1,0 +1,28 @@
+.background {
+  display: flex;
+}
+.background .column {
+  text-align: center;
+}
+.background .column h2 {
+  font-size: 17px;
+}
+.background .column p {
+  padding: 39px;
+  color: dimgrey;
+  padding-top: 2px;
+}
+.background .column .column_img {
+  margin: 20px;
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+}
+
+.background .column .column_img svg {
+  text-align: center;
+}
+
+.background .column .column_img:hover .shp0 {
+  fill: blue;
+}
