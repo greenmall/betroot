@@ -197,7 +197,7 @@ ul li a {
 }
 
 .offer_width {
-	display: inline-block;
+	display: inline-block; /* Хорошое решение проблемы */
 	vertical-align: top;
 	width: 24%;
 
@@ -286,6 +286,17 @@ ul li a {
 
 .different {
 	padding-top: 20%;
+	/* родительский блок потерял высоту от дочерних блоков с float.
+	 Для того чтобы етого не произходило
+	 для родительского елемента - использует такой лайф-хак с псевдо-елементом
+
+.xxxxxxx:after {
+	  clear: both;  <-- тут кроется весь секрет
+    display: block;
+    content: '';
+}
+
+	  */
 }
 
 .different_options_left-side {
