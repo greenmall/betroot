@@ -6,39 +6,44 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Working with design lab</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
 
-     <link rel="stylesheet" href="landing_boy9.css">
+    <link rel="stylesheet" href="landing_boy9.css">
 </head>
 
 
-<body> 
-	<main>
-<section class="working">
+<body>
+<!-- выравнивание + горизонтальный скрол -->
+<main>
+    <section class="working">
+        <!-- Коль ты решила использовать картинку как bg для .working.
+        То нужно было сделать дополнительную блок-обертку для контента
+         - для того что бы выравнивать один блок, а не каждый отдельно.-->
 
-<div class="logo">
-  <img src="logo.png" alt="triangle_circle">
-</div>
+        <!-- блин у тебя тут так много свободного места, но при етом даже первая секция не адаптивна, ето печально.-->
+        <div class="logo">
+            <img src="logo.png" alt="triangle_circle">
+        </div>
 
-    <h1 class="working_text"> Working<br> with design lab </h1>
+        <h1 class="working_text"> Working<br> with design lab </h1><!-- старайся не использовать br -->
 
-    <p class="we_been"> We’ve been helping startups launch and grow their businesses. <br>
-        We help you to fill the gap beetween development, <br>
-    Design and product management.</p>
+        <p class="we_been"> We’ve been helping startups launch and grow their businesses. <br>
+            We help you to fill the gap beetween development, <br>
+            Design and product management.
+        </p>
 
-    <div class="scroll">
-         <img src="scroll.png" alt="scroll_mouse">
-    </div>
+        <div class="scroll">
+            <img src="scroll.png" alt="scroll_mouse">
+        </div>
+    </section>
 
-</section>
 
-
-<section class="about_us">  
-    <h2 class="about_us_text"> About us </h2>
-    <p class="when_you">  When you work with us, you are part of a team of committed collaborators. <br>
-        All aspects of our software development process are integrated, iterative and <br>agile.</p>
+    <section class="about_us">
+        <h2 class="about_us_text"> About us </h2>
+        <p class="when_you"> When you work with us, you are part of a team of committed collaborators. <br>
+            All aspects of our software development process are integrated, iterative and <br>agile.</p>
         <p class="our_approach">
             Our approach unifies design, development and <br>
             product management to create exceptional products. <br>
@@ -46,27 +51,27 @@
             the user's needs and the product requirements. <br>
             Then we help translate them into effective and elegant solutions.
         </p>
-   <div class="rectangle">
-    <img src="copy3.png" alt="rectangle">
-       
-   </div>    
+        <div class="rectangle">
+            <img src="copy3.png" alt="rectangle">
 
-</section>
+        </div>
 
-<section class="services">
-    <h2 class="services_text"> Services </h2>
-    <p class="before_we"> Before we sign a contract or write a line of code our team will spend the neces-<br>
-        sary time needed to understand your product vision. <br> 
-      The outcome of this scoping session is a proposal or high-level statement of <br>
-       work. <br>
-       Based on your requirements, we can provide a complete offering or just the <br>
-       pieces you need.
-       </p>
-    <div class="rectangle_2">
-         <img src="copy1.png" alt="rectangle">
-    </div>
+    </section>
 
-   
+    <section class="services">
+        <h2 class="services_text"> Services </h2>
+        <p class="before_we"> Before we sign a contract or write a line of code our team will spend the neces-<br>
+            sary time needed to understand your product vision. <br>
+            The outcome of this scoping session is a proposal or high-level statement of <br>
+            work. <br>
+            Based on your requirements, we can provide a complete offering or just the <br>
+            pieces you need.
+        </p>
+        <div class="rectangle_2">
+            <img src="copy1.png" alt="rectangle">
+        </div>
+
+
     </section>
 
     <section>
@@ -76,13 +81,12 @@
     </section>
 
 
+</main>
 
-    </main>
+<footer>
 
-    <footer>
+</footer>
 
-    </footer>
-
-    </body>
+</body>
 
 </html>
