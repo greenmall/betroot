@@ -1,36 +1,44 @@
 .euis {
-	color: #0000ff;
+    color: #0000ff;
 }
-.lorem {
-	color: #0000ff;
-}
-h1 { text-align: center; 
-	background-color:rgb(165, 33, 33);
-	color: white;
-}
-footer {
-	background-color: black;
-	color: white;
-	font-size: 20px;
-	 text-align: center;
-}
-p { font-size:  18px;
 
+.lorem {
+    color: #0000ff;
+}
+
+h1 {
+    text-align: center;
+    background-color: rgb(165, 33, 33);
+    color: white;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
 }
 
 body {
-	width : 800px;
-	margin-left:  auto;
-	margin-right:  auto;
-	padding: 0px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0px;
 }
+
 .sunset {
-	 text-align: center;
+    text-align: center;
 }
+
 .pictures {
-	text-align:  center;
+    text-align: center;
 }
- .border {
- 	border-style: dashed;
- 	border-color:  black;
- }
+
+.border {
+    border-style: dashed;
+    border-color: black;
+}

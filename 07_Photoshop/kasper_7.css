@@ -1,8 +1,9 @@
-html, body {
+html,
+body {
     font-size: 18px;
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    font-family: "Open Sans", sans-serif;
     max-width: 1170px;
     width: 100%;
     margin-left: auto;
@@ -10,13 +11,11 @@ html, body {
     background-color: #121116;
 }
 
-
 a {
     text-decoration-line: none;
-
 }
 
-.main{
+.main {
     display: flex;
     flex-direction: column;
     margin-top: 118px;
@@ -43,15 +42,16 @@ a {
     margin-bottom: 20px;
 }
 
-.icons {  margin:  0 15px;
+.icons {
+    margin: 0 15px;
     margin-bottom: 90px;
     text-align: center;
-
 }
 
 .icons a:not(:last-child) {
     margin-right: 35px;
 }
+
 
 /* .Facebook {
   background-color: rgb(255, 255, 255);
@@ -84,26 +84,27 @@ a {
 } */
 
 .color_kasper {
-    color:  rgb(28, 237, 237);
-     font-size: 12px;
+    color: rgb(28, 237, 237);
+    font-size: 12px;
 }
 
 .copyright {
     font-size: 12px;
     color: #ffffff;
 }
+
 .kasper {
-     text-align: center;
-  font-size: 15px;
-  font-family: "Open Sans";
-  color: rgb(255, 255, 255);
-  line-height: 1.2;
- 
+    text-align: center;
+    font-size: 15px;
+    font-family: "Open Sans";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
 }
 
 .kasper_logo {
     text-align: center;
 }
+
 .social_center {
-  margin:  0 auto;
+    margin: 0 auto;
 }
