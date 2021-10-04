@@ -1,180 +1,179 @@
-*
-{transition: all .1s ease-in;}
-
+* {
+    transition: all 0.1s ease-in;
+}
 
 li {
-	list-style-type: none;
-	}
+    list-style-type: none;
+}
 
-	ul {
-		padding-right: 216px;
-		padding-left: 216px;
-		padding-top: 105px;
-		padding-bottom: 195px;
-	}
+ul {
+    padding-right: 216px;
+    padding-left: 216px;
+    padding-top: 105px;
+    padding-bottom: 195px;
+}
 
 body {
-	border: 17px solid #2B81AC;
-	width:  1468px;
-	height:  963px;
-	background-color: #3399CC;
-	color: white;
+    border: 17px solid #2b81ac;
+    width: 1468px;
+    height: 963px;
+    background-color: #3399cc;
+    color: white;
 }
 
 .css_weather {
-font-size: 28px;
-font-family: “Lucida Sans Unicode”, sans-serif;
-padding-left: 216px;
-padding-top: 6px;
+    font-size: 28px;
+    font-family: “Lucida Sans Unicode”, sans-serif;
+    padding-left: 216px;
+    padding-top: 6px;
 }
 
 .lisbon {
-	display: inline-block;
-	width:  50%;
-	background-color: #3399CC;
-	border:  6px solid white;
-	width:  488px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	 line-height: 2.2;
+    display: inline-block;
+    width: 50%;
+    background-color: #3399cc;
+    border: 6px solid white;
+    width: 488px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-
-
 .paris {
-	display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #33CCCC;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	 line-height: 2.2;
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #33cccc;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
 .belgrade {
-	display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #996699;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	 line-height: 2.2;
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #996699;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.moscow {display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #C24747;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	 line-height: 2.2;
-
+.moscow {
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #c24747;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.tel-aviv {display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #E2674A;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	line-height: 2.2;
+.tel-aviv {
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #e2674a;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.cair {display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #FFCC66;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	line-height: 2.2;
+.cair {
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #ffcc66;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.new_york {display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #99CC99;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	line-height: 2.2;
+.new_york {
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #99cc99;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.new_delphi {display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #669999;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	line-height: 2.2;
+.new_delphi {
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #669999;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
 .san_francisco {
-	display: inline-block;
-	width:  50%;
-	background-color: #D769E5;
-	border:  6px solid white;
-	width:  482px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	 line-height: 2.2;
+    display: inline-block;
+    width: 50%;
+    background-color: #d769e5;
+    border: 6px solid white;
+    width: 482px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.tokyo {display: inline-block;
-	width:  25%;
-	border:  6px solid white;
-	background-color: #339966;
-	width:  244px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	line-height: 2.2;
-
+.tokyo {
+    display: inline-block;
+    width: 25%;
+    border: 6px solid white;
+    background-color: #339966;
+    width: 244px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.sydney {display: inline-block;
-	width:  100%;
-	border:  6px solid white;
-	background-color: #666699;
-	width: 982px;
-	height:  155px;
-	text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  27px;
-	line-height: 2.2;
-
+.sydney {
+    display: inline-block;
+    width: 100%;
+    border: 6px solid white;
+    background-color: #666699;
+    width: 982px;
+    height: 155px;
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 27px;
+    line-height: 2.2;
 }
 
-.have { 
-text-align: center;
-	font-family:  “Lucida Grande”, sans-serif;
-	font-size:  25px;
-	line-height: 2.2;
-
+.have {
+    text-align: center;
+    font-family: “Lucida Grande”, sans-serif;
+    font-size: 25px;
+    line-height: 2.2;
 }
-
-
