@@ -1,7 +1,7 @@
 .working {
     background-image: url("hero.png");
     height: 1077px;
-    width: 1920px;
+    width: 100%;
 }
 
 .working_text {
@@ -54,7 +54,7 @@
 
 .about_us {
     height: 637px;
-    width: 1920px;
+    width: 100%;
 }
 
 .rectangle {
@@ -113,7 +113,7 @@
 .services {
     background-image: url("services.png");
     height: 490px;
-    width: 1920px;
+    width: 100%;
 }
 
 .services_text {
@@ -153,4 +153,326 @@
     width: 898px;
     height: 308px;
     z-index: 49;
+}
+
+.what_we_do {
+    width: 100%;
+    height: 1422px;
+}
+
+.what_we_do_text {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 761.055px;
+    top: 2275.436px;
+    z-index: 55;
+}
+
+.design_logo {
+    position: absolute;
+    left: 917px;
+    top: 2501px;
+    width: 80px;
+    height: 84px;
+    z-index: 57;
+}
+
+.our_design {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    line-height: 2.349;
+    text-align: center;
+    position: absolute;
+    left: 679.164px;
+    top: 2693.14px;
+    width: 559px;
+    height: 89px;
+    z-index: 62;
+}
+
+.word_design {
+    font-size: 38px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 892.154px;
+    top: 2590.256px;
+    z-index: 56;
+}
+
+.development_logo {
+    position: absolute;
+    left: 918px;
+    padding-top: 748px;
+    width: 79px;
+    height: 76px;
+    z-index: 59;
+}
+
+.word_development {
+    font-size: 38px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 829.143px;
+    top: 3054.256px;
+    z-index: 58;
+}
+
+.all_engineers {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    line-height: 2.349;
+    text-align: center;
+    position: absolute;
+    left: 686.448px;
+    top: 3145.14px;
+    width: 547px;
+    height: 63px;
+    z-index: 63;
+}
+
+.product_logo {
+    position: absolute;
+    left: 918px;
+    top: 3340px;
+    width: 79px;
+    height: 91px;
+    z-index: 61;
+}
+
+.word_product_management {
+    font-size: 37px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 739.442px;
+    top: 3431.256px;
+    z-index: 60;
+}
+
+.planning {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    line-height: 2.349;
+    text-align: center;
+    position: absolute;
+    left: 677.178px;
+    top: 3512.14px;
+    width: 534px;
+    height: 63px;
+    z-index: 64;
+}
+
+.pictures {
+    width: 100%;
+    height: 485px;
+}
+
+.word_kyiv {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 1397.987px;
+    top: 4000.436px;
+    z-index: 21;
+}
+
+.word_market {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 1380.62px;
+    top: 3753.436px;
+    z-index: 20;
+}
+
+.word_worktop {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 5.005px;
+    top: 4000.436px;
+    z-index: 19;
+}
+
+.word_topworkz {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: -2.6px;
+    top: 3753.436px;
+    z-index: 18;
+}
+
+.word_lable {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 570.752px;
+    top: 4000.436px;
+    z-index: 17;
+}
+
+.word_joint {
+    font-size: 56px;
+    font-family: "Lato";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -webkit-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    -ms-transform: matrix(0.60657622078989, 0, 0, 0.60779052654941, 0, 0);
+    position: absolute;
+    left: 574.5px;
+    top: 3753.436px;
+    z-index: 16;
+}
+
+.contact_us {
+    width: 100%;
+    height: 599px;
+}
+
+.btn_contact {
+    width: 395px;
+    height: 56px;
+    font-size: 16px;
+    font-family: "Lato";
+    background-color: black;
+    color: ghostwhite;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(1.0007124629635, 0, 0, 1.00854689419777, 0, 0);
+    -webkit-transform: matrix(1.0007124629635, 0, 0, 1.00854689419777, 0, 0);
+    -ms-transform: matrix(1.0007124629635, 0, 0, 1.00854689419777, 0, 0);
+    position: absolute;
+    left: 743.298px;
+    top: 4466.982px;
+    z-index: 27;
+}
+
+.h3_contact {
+    font-size: 29.746px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    -moz-transform: matrix(1.0007124629635, 0, 0, 1.00854689419777, 0, 0);
+    -webkit-transform: matrix(1.0007124629635, 0, 0, 1.00854689419777, 0, 0);
+    -ms-transform: matrix(1.0007124629635, 0, 0, 1.00854689419777, 0, 0);
+    position: absolute;
+    left: 858.382px;
+    top: 4216.152px;
+    z-index: 26;
+}
+
+.contact_planning {
+    font-size: 16px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    line-height: 1.618;
+    text-align: center;
+    -moz-transform: matrix(1, 0, 0, 1.00000463686427, 0, 0);
+    -webkit-transform: matrix(1, 0, 0, 1.00000463686427, 0, 0);
+    -ms-transform: matrix(1, 0, 0, 1.00000463686427, 0, 0);
+    position: absolute;
+    left: 682.806px;
+    top: 4328.108px;
+    width: 549.252px;
+    height: 66.656px;
+    z-index: 28;
+}
+
+.all_rights2014 {
+    font-size: 14px;
+    font-family: "Lato";
+    color: rgb(60, 60, 60);
+    line-height: 2.349;
+    text-align: left;
+    -moz-transform: matrix(0.99849107703368, 0, 0, 1.00004728081279, 0, 0);
+    -webkit-transform: matrix(0.99849107703368, 0, 0, 1.00004728081279, 0, 0);
+    -ms-transform: matrix(0.99849107703368, 0, 0, 1.00004728081279, 0, 0);
+    position: absolute;
+    left: 823.479px;
+    top: 4594.382px;
+    z-index: 31;
 }
