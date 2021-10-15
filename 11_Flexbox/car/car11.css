@@ -1,0 +1,260 @@
+body {
+    height: 1400px;
+    width: 100%;
+    margin-left: 240px;
+    margin-right: 240px;
+    margin-top: 91px;
+    background-color: rgb(226, 231, 236);
+}
+
+@ font-face {
+    font-family: "Trender";
+    src: url("C:\Users\User\Desktop\betroot\11_Flexbox\car\Trender.ttf");
+}
+
+.red_car {
+    background-image: url("red_car.png");
+    position: absolute;
+    left: 240px;
+    top: 91px;
+    width: 740px;
+    height: 540px;
+    z-index: 21;
+}
+
+.girl {
+    background-image: url("girl.png");
+    position: absolute;
+    left: 1000px;
+    top: 91px;
+    width: 360px;
+    height: 251px;
+    z-index: 5;
+}
+
+.white_girl {
+    background-color: white;
+    position: absolute;
+    left: 1000px;
+    top: 91px;
+    width: 360px;
+    height: 540px;
+    z-index: 3;
+}
+
+.girls {
+    background-image: url("girls.png");
+    position: absolute;
+    left: 240px;
+    top: 651px;
+    width: 360px;
+    height: 251px;
+    z-index: 12;
+}
+
+.white_girls {
+    background-color: white;
+    position: absolute;
+    left: 240px;
+    top: 651px;
+    width: 360px;
+    height: 540px;
+    z-index: 8;
+}
+
+.boots {
+    background-image: url("boots.png");
+    position: absolute;
+    left: 620px;
+    top: 651px;
+    width: 360px;
+    height: 251px;
+    z-index: 22;
+}
+
+.white_boots {
+    background-color: white;
+    position: absolute;
+    left: 620px;
+    top: 651px;
+    width: 360px;
+    height: 540px;
+    z-index: 13;
+}
+
+.white_car {
+    background-image: url("white_car.png");
+    position: absolute;
+    left: 1000px;
+    top: 651px;
+    width: 360px;
+    height: 251px;
+    z-index: 28;
+}
+
+.white_white_car {
+    background-color: white;
+    position: absolute;
+    left: 1000px;
+    top: 651px;
+    width: 360px;
+    height: 540px;
+    z-index: 17;
+}
+
+.fantastic {
+    font-size: 30px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.2;
+    position: absolute;
+    left: 56.88px;
+    top: 417.828px;
+    z-index: 25;
+}
+
+.nov_28 {
+    font-size: 13px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: whitesmoke;
+    text-transform: uppercase;
+    line-height: 2.308;
+    position: absolute;
+    left: 58.938px;
+    top: 411.619px;
+    z-index: 27;
+}
+
+.how_to {
+    font-size: 22px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.364;
+    position: absolute;
+    left: 29.426px;
+    top: 289.52px;
+    z-index: 6;
+}
+
+.loading {
+    font-size: 13px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: rgb(153, 165, 176);
+    text-transform: uppercase;
+    line-height: 2.308;
+    position: absolute;
+    left: 736.938px;
+    top: 1268.498px;
+    z-index: 15;
+}
+
+.loading_img {
+    color: rgb(153, 165, 176);
+    text-transform: uppercase;
+    position: absolute;
+    left: 688.938px;
+    top: 1284.498px;
+    z-index: 15;
+}
+
+.man {
+    position: absolute;
+    left: 31.938px;
+    top: 451.498px;
+    z-index: 15;
+}
+
+.nov_24 {
+    font-size: 13px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: rgb(129, 129, 129);
+    text-transform: uppercase;
+    line-height: 2.308;
+    position: absolute;
+    left: 29.938px;
+    top: 273.619px;
+    z-index: 7;
+}
+
+.the_only {
+    font-size: 22px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: black;
+    text-transform: uppercase;
+    line-height: 1.364;
+    position: absolute;
+    left: 35.426px;
+    top: 317.52px;
+    z-index: 9;
+}
+
+.nov_18 {
+    font-size: 13px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: rgb(129, 129, 129);
+    text-transform: uppercase;
+    line-height: 2.308;
+    position: absolute;
+    left: 35.426px;
+    top: 300.52px;
+    z-index: 7;
+}
+
+.man_2 {
+    position: absolute;
+    left: 35.426px;
+    top: 464.52px;
+    z-index: 7;
+}
+
+.growth {
+    font-size: 22px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: rgb(29, 29, 29);
+    text-transform: uppercase;
+    line-height: 1.364;
+    position: absolute;
+    left: 38.426px;
+    top: 314.52px;
+    z-index: 14;
+}
+
+.man_3 {
+    position: absolute;
+    left: 38.426px;
+    top: 464.52px;
+    z-index: 7;
+}
+
+.nov_8 {
+    font-size: 13px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: rgb(129, 129, 129);
+    text-transform: uppercase;
+    line-height: 2.308;
+    position: absolute;
+    left: 37.426px;
+    top: 300.52px;
+    z-index: 7;
+}
+
+.get80 {
+    font-size: 22px;
+    font-family: "HansKendrick", "Trender", sans-serif;
+    color: rgb(29, 29, 29);
+    text-transform: uppercase;
+    line-height: 1.364;
+    position: absolute;
+    left: 38.426px;
+    top: 314.52px;
+    z-index: 14;
+}
+
+.man_4 {
+    position: absolute;
+    left: 38.426px;
+    top: 464.52px;
+    z-index: 7;
+}
