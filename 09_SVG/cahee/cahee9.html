@@ -20,6 +20,18 @@
 
 
 <body>
+<!--
+Обшие замечания
+- css откровенно отвратительный - подробней в css
+- Нету Адаптива
+- Контент не поцентру
+- Вокруг всего контента страници есть маленький отступ
+- img/png/svg итд - Картинки Должны быть в отдельной папке для картинок.
+- css/scss итд - Стили должны быть в отдельной папки для стилей
+++ очень хорошо что ты добавляешь макет и скрин макета. Так и продолжай. В будушем тебе ето поможет
+
+После исправлений коментария - удаляй, чтобы небыло путаници. Старый/Новый/Твой/Мой итд...
+ -->
     <main>
         <section class="strawberry">
             <span class="cahee">Cahee </span>
@@ -58,6 +70,10 @@
         </header>
         <section class="about_us">
             <div class="about_text">
+                <!-- очень хорошо что ты использовала заголовок H*
+                 - по симантике в section должен присудствовать тег заголовка H*
+                 текст по высоте не помещается в блок
+                -->
                 <h2> About Us </h2>
             </div>
 
@@ -73,6 +89,7 @@
 
         <section class="services">
             <ul class="container_ul">
+                <!-- Опять контент вылазит за граници блока -->
                 <li class="li_services bg_hover"> Online Shopping <img src="supermarket_trolley.png"> <!-- у картинок есть 2 обязательных Атрибута.
                 http://htmlbook.ru/html/img
                 Незабывай их указывать.
@@ -91,12 +108,16 @@
         </section>
         <section class="gallery">
             <div class="gallery_text">
+                <!-- очень хорошо что ты использовала заголовок H*
+                 - по симантике в section должен присудствовать тег заголовка H*
+                -->
                 <h2> Gallery</h2>
             </div>
             <div class="consecte">
                 <p> Consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et <br> dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br> ullamco laboris nisi aut aliquip ex ea commodo consequat.
                 </p>
             </div>
+            <!-- неудобная вставка изображений ну для начала нормально -->
             <div class="pears">
             </div>
             <div class="blueberry">
@@ -109,7 +130,6 @@
             </div>
 
             <button class="button_view_more"> VIEW MORE </button>
-
         </section>
 
         <section class="subscribe">
@@ -168,7 +188,14 @@
     </main>
 
     <footer>
+        <!-- Весь футер сломался включая форму-->
         <section class="contact">
+            <!-- Форма должна заключатся в тег form
+            http://htmlbook.ru/html/form
+            будь внимательна там есть 2а обязательных атрибута.
+            также добавь кнопки для отправки и сброса формы.
+            и незабывай про валидацию полей. Форма не должна отправлятся с ошибками или пустая
+            -->
             <h2 class="contact_text"> Contact </h2>
             <p> For new projects, ideas, business or anything <br> you'd like to discuss, contact with me!</p>
 
