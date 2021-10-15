@@ -14,7 +14,18 @@
 </head>
 
 <body>
-    <!-- выравнивание + горизонтальный скрол -->
+<!--
+Обшие замечания
+- сайт не рабочий, все сломато и сехало
+- Нету Адаптива
+- Контент не поцентру
+- Вокруг всего контента страници есть маленький отступ
+- img/png/svg итд - Картинки Должны быть в отдельной папке для картинок.
+- css/scss итд - Стили должны быть в отдельной папки для стилей
+++ очень хорошо что ты добавляешь макет и скрин макета. Так и продолжай. В будушем тебе ето поможет
+
+После исправлений коментария - удаляй, чтобы небыло путаници. Старый/Новый/Твой/Мой итд...
+ -->
     <main>
         <section class="working">
             <!-- Коль ты решила использовать картинку как bg для .working.
@@ -50,6 +61,13 @@
                 we help translate them into effective and elegant solutions.
             </p>
             <div class="rectangle">
+                <!-- Что за бред Никогда так не делай. Текст должен быть текстом. За такое тебя просто сразу уволят в тот же день.
+                для решения етой проблемы есть 2 способа.
+                1) попробывать спомошью html5 - я только не уверен насчет центрирования :
+                     fieldset -  http://htmlbook.ru/html/fieldset
+                     legend - http://htmlbook.ru/index.php/html/legend
+                2) сверстать обычный блок с текстом изадать бордер в виде градиента. А название сместить таким образом как на картинке.
+                -->
                 <img src="copy3.png" alt="rectangle" />
             </div>
         </section>
@@ -61,6 +79,13 @@
                 <br /> Based on your requirements, we can provide a complete offering or just the <br /> pieces you need.
             </p>
             <div class="rectangle_2">
+                <!-- Что за бред Никогда так не делай. Текст должен быть текстом. За такое тебя просто сразу уволят в тот же день.
+                для решения етой проблемы есть 2 способа.
+                1) попробывать спомошью html5 - я только не уверен насчет центрирования :
+                     fieldset -  http://htmlbook.ru/html/fieldset
+                     legend - http://htmlbook.ru/index.php/html/legend
+                2) сверстать обычный блок с текстом изадать бордер в виде градиента. А название сместить таким образом как на картинке.
+                -->
                 <img src="copy1.png" alt="rectangle" />
             </div>
         </section>
@@ -74,7 +99,12 @@
                 /> solicit user feedback, and work with you to make sure what gets built is what is needed.
             </p>
 
-            <img class="development_logo" src="development.png" />
+            <img class="development_logo" src="development.png" /><!-- у картинок есть 2 обязательных Атрибута.
+                            http://htmlbook.ru/html/img
+                            Незабывай их указывать.
+                              src - http://htmlbook.ru/html/img/src
+                              alt - http://htmlbook.ru/html/img/alt
+                              -->
             <h3 class="word_development">Development</h3>
             <p class="all_engineers">
                 All engineers are fluent in the latest enterprise, mobile and web development technologies. They collaborate with your team to write, test, and improve code on a daily basis, using proven practices such as test-driven development and pair programming.
@@ -88,7 +118,12 @@
         </section>
 
         <section class="pictures">
-            <img src="topworkz.png" />
+            <img src="topworkz.png" /><!-- у картинок есть 2 обязательных Атрибута.
+                            http://htmlbook.ru/html/img
+                            Незабывай их указывать.
+                              src - http://htmlbook.ru/html/img/src
+                              alt - http://htmlbook.ru/html/img/alt
+                              -->
             <img src="joint.png" />
             <img src="market.png" />
             <img src="worktop.png" />

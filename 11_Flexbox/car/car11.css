@@ -7,11 +7,21 @@ body {
     background-color: rgb(226, 231, 236);
 }
 
+/*
+стили сломаны
+*/
 @ font-face {
     font-family: "Trender";
     src: url("C:\Users\User\Desktop\betroot\11_Flexbox\car\Trender.ttf");
 }
 
+/*
+    проверять дальше нет смысла потому что вся работа
+        1) сделана на position: absolute;
+        2) тупое копирование стилей из приложения
+
+    Переписать, работа не принята
+*/
 .red_car {
     background-image: url("red_car.png");
     position: absolute;

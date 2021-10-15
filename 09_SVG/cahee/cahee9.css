@@ -1,13 +1,78 @@
+/*
+
+Стили отвратительный, просто копировала из приложения.
+Половина стилей в лучшем случае - "безполезны",
+вдругом же случае - они ломают правильную отрисовку блоков
+
+1) Не копируй стили которые тебе предлагает дизайнерское приложение(ты не дизайнер, а програмист)
+2) Научись инспектировать и оценивать свою работу в браузере - Ето черезвычайно важно
+3) Классы должны быть говоряшими, тоесть название класса должно отвечает на вопросы "Что ето ?" / "Кто я ?" / "Что внутри меня ?"
+4) Прежде чем применять какието стили - неполенись и Прочитай что они делают.
+5) ЛЮБОЙ-Контент не должен выходить за граници родительского блока(<div>)
+
+
+Вижу старалась написать в стиле БЕМ. Ксожелению пока еще далеко до БЕМа. Сейчас ето просто классы с нижним подчеркиванием
+Повторю теорию что такое БЕМ :
+БЛОК - ето елемент страници который может быть копирован в любое место страници, без искажения стилей внутри.
+       блоки могут вкладыватся друг в друга.
+ЕЛЕМЕНТ - строго пренадлежит БЛОКу внутри которого он находится. Елемента за блоком быть не может.
+МОДИФИКАТОР - класс который будет изменять повидение ЕЛЕМЕНТов и БЛОКов и неважно где.
+
+
+СЛЕДОВАТЕЛЬНО нужно строить дерево css классов в HTMLе.
+ К примеру такая структура в HTML :
+краткая запись (сделана для Emmet плагина. Вставить в HTML и нажать ТАБ):
+  ``` .header>.header__logo>.header__icon+.header__title^+.header__menu.menu>.menu__item*4>.menu__icon+.menu__title ```
+развернутая запись : ```
+    <div class="header">
+        <div class="header__logo">
+            <div class="header__icon"></div>
+            <div class="header__title"></div>
+        </div>
+        <div class="header__menu menu">
+            <div class="menu__item">
+                <div class="menu__icon"></div>
+                <div class="menu__title"></div>
+            </div>
+            <div class="menu__item">
+                <div class="menu__icon"></div>
+                <div class="menu__title"></div>
+            </div>
+            <div class="menu__item">
+                <div class="menu__icon"></div>
+                <div class="menu__title"></div>
+            </div>
+            <div class="menu__item">
+                <div class="menu__icon"></div>
+                <div class="menu__title"></div>
+            </div>
+        </div>
+    </div>
+```
+
+В данном примере:
+header и menu --- Ето Блоки
+menu__item / menu__title / menu__icon --- Елементы блока "menu"
+header__logo / header__icon / header__menu  --- Елементы блока "header"
+
+МОДИФИКАТОРы - я неприводил в пример, для начала нужно освоить такую структуру.
+
+ */
+
+
 .strawberry {
     background-image: url("strawberry.png");
     width: 100%;
-    height: 1000px;
+    height: 1000px; /* Не задавай высоту для блоков как в данном случае.
+        Ето считается грубой ошибкой.
+        Высоту нужно набирать спомошью внутриних элементов (контент, отступы)
+      */
 }
 
 .cahee {
     margin-left: 165px;
     width: 133px;
-    height: 72px;
+    height: 72px; /* опять */
     font-size: 55px;
     font-family: "Pacifico", cursive;
 }
@@ -17,7 +82,7 @@
     margin-left: 150px;
     width: 385px;
     color: rgb(38, 38, 38);
-    height: 274px;
+    height: 274px; /* опять жуть */
     font-size: 30px;
     font-family: "Raleway", sans-serif;
 }
@@ -27,10 +92,10 @@
     font-family: "Raleway";
     color: rgb(38, 38, 38);
     font-weight: bold;
-    line-height: 1.563;
+    line-height: 1.563; /* ужастно */
     text-align: right;
     position: absolute;
-    left: 598.557px;
+    left: 598.557px; /* ужастно */
     top: 53.546px;
     width: 557px;
     height: 12px;
@@ -53,7 +118,7 @@
     margin-bottom: -12px;
     margin-top: -224px;
     width: 379px;
-    height: 112px;
+    height: 112px; /* Зачем */
 }
 
 .button_get_free {
@@ -70,7 +135,7 @@
 .about_us {
     background-color: #02C9B8;
     width: 100%;
-    height: 673px;
+    height: 673px; /* Если убрать высоту то секция исчезает - нужно исправить */
     background-image: url("raspberry.png");
     background-repeat: no-repeat;
 }
@@ -80,7 +145,8 @@
     font-family: "Raleway";
     color: rgb(255, 255, 255);
     font-weight: bold;
-    line-height: 0.3;
+    line-height: 0.3; /* Ето безполезный стиль.
+    Если незнаешь зачем етот стиль то не используй его */
     position: absolute;
     left: 832.879px;
     top: 1200px;
@@ -92,7 +158,7 @@
     font-family: "Raleway";
     color: rgb(255, 255, 255);
     line-height: 1.588;
-    text-align: left;
+    text-align: left; /* Зачем ??? */
     position: absolute;
     left: 812.893px;
     top: 1334.771px;
@@ -104,7 +170,7 @@
 .services {
     background-color: #64DDEA;
     width: 100%;
-    height: 673px;
+    height: 673px; /* Если убираем height - ломается */
     background-image: url("tomato.png");
     background-repeat: no-repeat;
     background-position: right 6% bottom 14%;
@@ -149,7 +215,9 @@
 .gallery {
     background-color: #FFEB09;
     width: 100%;
-    height: 1536px;
+    height: 1536px; /* Не задавай высоту для блоков как в данном случае.
+    Ето считается грубой ошибкой
+  */
 }
 
 .pears {
@@ -511,6 +579,7 @@
     width: 100%;
     height: 866px;
 }
+
 .contact_text {
     font-size: 90px;
     font-family: "Raleway";
@@ -523,6 +592,7 @@
     top: 5510.99px;
     z-index: 31;
 }
+
 .all_rights {
     background-color: #3F423D;
     width: 100%;
