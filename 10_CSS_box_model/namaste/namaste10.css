@@ -6,12 +6,17 @@
 
 .background .column {
     text-align: center;
-    padding-top: 523px;
+    margin-top:  501px;
 }
 
 .background .column p {
     padding: 39px;
     color: dimgrey;
+    margin-top: 136px;
+}
+
+.who {
+    background-color: white;
 }
 
 .web_design,
@@ -23,6 +28,7 @@
     color: rgb(27, 27, 27);
     text-transform: uppercase;
     line-height: 1.2;
+    margin-top: 48px;
 }
 
 .who_we_are {
@@ -68,8 +74,11 @@
     z-index: 38;
 }
 
+
+
 .column_web_design {
     background-color: #edf5f7;
+
 }
 
 .column_web_design:hover {
@@ -102,4 +111,8 @@
 .column_illustrations:hover {
     background-color: #4fefea;
     color: white;
+}
+
+p {
+    margin-top: 230px;
 }
