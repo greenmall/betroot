@@ -509,6 +509,8 @@ ul {
     color: white;
     text-transform: uppercase;
     margin-bottom: 30px;
+    padding-left: 63px;
+    padding-top: 58px;
 }
 
 .recommend_p {
@@ -518,16 +520,57 @@ ul {
     color: white;
     line-height: 26px;
     margin-bottom: 48px;
+    float: left;
+    margin-right: -104px;
+    padding-left: 72px;
 }
 
 .quote {
     font-weight: bold;
     font-size: 36px;
-    color: #5474fd;
+    padding-left: 49px;
+}
+
+.blue_quote {
+    fill: #5474fd;
 }
 
 .footer {
     width: 1770px;
     height: 268px;
     background-color: #333333;
+}
+
+.title_footer {
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: white;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.footer_wrapper {
+    width: 540px;
+    height: 284px;
+    text-align: right;
+    padding-top: 143px;
+    padding-left: 436px;
+}
+
+.footer_p {
+    font-size: 17px;
+    font-family: "Josefin Sans", sans-serif;
+    font-weight: 300;
+    color: white;
+    padding-top: 17px;
+}
+
+.icons {
+    margin: 0 15px;
+    margin-bottom: 90px;
+    text-align: center;
+    padding-left: 334px;
+    padding-top: 17px;
 }
