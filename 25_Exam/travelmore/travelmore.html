@@ -6,23 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Travel More</title>
+    <!-- стили должны были подключенны одним файлом, и написанны через препроцессор scss -->
     <link rel="stylesheet" type="text/css" href="./reset.css" />
     <link rel="stylesheet" href="./normalize.css" />
     <link rel="stylesheet" href="./travelmore.css" />
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- дубликат -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- дубликат -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap" rel="stylesheet">
 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com"> <!-- дубликат -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> <!-- дубликат -->
     <link href="https://fonts.googleapis.com/css2?family=Aleo:wght@300;400;700&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./img\icons_jake.png" type="image/png">
+    <link rel="shortcut icon" href="./img\icons_jake.png" type="image/png"> <!-- путь к картинке странный -->
 </head>
 
 <body>
+<!--
+Мои коментарии удаляются после исправления !
+
+Очень слабая работа.
++ cod-style -
+    - стили должны были подключенны одним файлом, и написанны через препроцессор scss
+    - дубликаты подключения
+    - некоректный путь к картинке. Даже хоть один-браузер и распознал другой может не распознать.
+    - сломанный закрываюший тег body/main
+    - структура использования main - неверная. Сейчас твой main взял на себя роль тега body. И поетому body - бесполезен.
+    Нужно было header и footer вынести из main. Тогда было бы все норм.
+    + Используй авто-выравнивание кода. - на Sublime - у меня есть список полезных плагинов
+        @info https://github.com/SnisarOnline/BeetrootAcademy--all_lessons/blob/master/00_Different_things/Sublime_installing.txt
+        - Пустые промежутки в коде.
+        - колбасный-тего-код
+    - дубликаты в названиях class и id
+    - названия классов - трудно читаемы
++ PixelPerfect - мы все договаривались только за первую секцию в 100vh :
+    - его нету - ето изза того что ты адаптировала каждую секцию под 100vh.
++ Адаптив :
+    Обизательно к прочтению https://htmlacademy.ru/blog/boost/tools/how-to-devtools
+    - при изменении высоты страници - сайт неадекватно двигается
+    - первым что должноо ужиматся ето Пустое пространство, до адекватных отступов под конкретный размер.
+    А только потом уже должен ужиматся/адаптироватся контент секции
+    - 950рх и ниже - страница ломается - проверять нет смысла.
+
++ БЕМ
+    - структуры нету. Для секций с "why-choose-us/header/how-it-works" - нужно было дать один обший класс.
+    В котором ты могла стандартезировать отступы и разментку на все секции. И етоже тебе помогло с адаптивом
+    - структура блоков(вложенность) - есть и правельная
+    - название классов - нужно учитывать что они буду переиспользоватся тобой и твоими колегами.
+    И старатся называть класс одним словом.
+-->
     <main>
         <header class="header">
+            <!--
+            + PixelPerfect :
+                - меню идеально совпадает.
+                - вся секция с названием, поискам, и скролом - выше нужного на 60рх
+                - скрол кнопка - не по дизайну
+            + Адаптив :
+                - сначала должно ужиматся пустое пространство, а только потом уже адаптироватся контент.
+                - 1200рх
+                    - поиск - для данного размера слишком короткий. по бокам много пустого неиспользованного пространства
+                    - меню - по бокам много пустого неиспользованного пространства
+                - 1100рх
+                    - поиск - совсем ужался, работать с ним будет не комфортно, а по бокам кучаместа.
+                - 950рх и ниже - страница ломается - проверять нет смысла - адаптиво не считается.
+            + БЕМ:
+                - все хорошо. Но старайся одним словом задавать классы.
+            -->
             <div class="header__central">
                 <h2 class="header__title-brand-name">Bhromaon</h2>
                 <h1 class="header__title">Safe Travel Anywhere</h1>
@@ -31,11 +81,13 @@
                     <input class="header__input-text" type="text" placeholder="Search Your Travel Destination">
                     <button class="header__search-button"> Search </button>
                 </form>
-                <a class="header__scroll-down-link" href="why-choose-us"><span class="header__scroll-down">Scroll Down ˇ </span></a>
+                <a class="header__scroll-down-link" href="why-choose-us"><!-- якорь неверно задан -->
+                    <span class="header__scroll-down">Scroll Down ˇ </span>
+                </a>
             </div>
 
 
-
+<!--Пустые промежутки в коде.-->
 
 
             <nav class="header__nav">
@@ -56,10 +108,30 @@
             </nav>
         </header>
 
+        <!--Пустые промежутки в коде.-->
 
 
         <section class="why-choose-us">
-
+            <!--
+            + PixelPerfect :
+                - блок с текстом совпадает, если подмащивать картинку. - ну ето скорей самоутишение.
+                - картинки не совпадают.
+                - высота секции не совпадает.
+            + Адаптив :
+                - сначала должно ужиматся пустое пространство, а только потом уже адаптироватся контент.
+                - до 1300
+                    - еще нормально выглядит
+                + после 1300
+                    - много пустого пространства по бокам
+                    - текст сильно ужимается
+                    - текст слишком близко к картинкам.
+                - 950рх и ниже - страница ломается - проверять нет смысла - адаптиво не считается.
+            + БЕМ:
+                - все хорошо. Но старайся одним словом задавать классы.
+            + cod-style -
+                - Используй авто-выравнивание кода. длинные строки должны переносится на новую строку
+                - дублированное использование why-choose-us - class и id
+            -->
             <div class="why-choose-us__text-part-wraper">
                 <h2 class="why-choose-us__title">Why Choose Us</h2>
                 <p class="why-choose-us__paragraph">Tion and dislike men who are so beguiled and demoralized by desire by the charms of pleasure of the moment, so blinded by desire, that they cannot foresee </p>
@@ -73,6 +145,19 @@
         </section>
 
         <section class="how-it-works">
+            <!--
+            + PixelPerfect : - отлично
+                - если подмащивать картинку. - картинки, текст, дуги - 95% совпадение - Очень хорошо.
+                - Высота блока тоже сопадает
+            + Адаптив :
+                - его нету
+            + БЕМ:
+                - все хорошо. Но старайся одним словом задавать классы.
+            + cod-style -
+                - Используй авто-выравнивание кода. длинные строки должны переносится на новую строку.
+                Ато ето превращается в нечитаемую колбасу тегов
+                - классы - трудно читаемы
+            -->
             <div class="how-it-works__ico-row-flex">
                 <div class="how-it-works__ico-block"> <img class="how-it-works__ico-pic" src="./img/search_blue.svg" alt=""><span class="how-it-works__ico-text">Search Places</span>
                 </div>
@@ -84,6 +169,21 @@
         </section>
 
         <section class="spain">
+            <!--
+            + PixelPerfect :
+                - если подставлять картинку - блок совпадает.
+                - картинка на фоне - не сопадает.
+                - высота блока не совпадает.
+            + Адаптив :
+                - хорошо - что не меняла размер блока при адаптиве. Он и так нормального размера.
+                - Плохо что задала фиксированую высоту блока. Контенту/тексту некуда деватся если ужимают.
+                - картинка на фоне не адаптивна
+            + БЕМ:
+                - все хорошо только для booking-window.
+                - название chouschoice-for-booking1__booking-window - некк не относится к БЕМ
+            + cod-style
+                - колбасный-тего-код - используй авто-выравнивание.
+            -->
             <div class="chouschoice-for-booking1__booking-window booking-window">
                 <h4 class="booking-window__country-name">Spain </h4>
                 <h3 class="booking-window__hotel-name"> Grand Spain Madrid </h3>
@@ -94,6 +194,21 @@
         </section>
 
         <section class="spain2">
+            <!--
+            + PixelPerfect :
+                - если подставлять картинку - блок совпадает.
+                - картинка на фоне - не сопадает.
+                - высота блока не совпадает.
+            + Адаптив :
+                - хорошо - что не меняла размер блока при адаптиве. Он и так нормального размера.
+                - Плохо что задала фиксированую высоту блока. Контенту/тексту некуда деватся если ужимают.
+                - картинка на фоне не адаптивна
+            + БЕМ:
+                - все хорошо только для booking-window.
+                - название chouschoice-for-booking2__booking-window - некк не относится к БЕМ
+            + cod-style
+                - колбасный-тего-код - используй авто-выравнивание.
+            -->
             <div class="chouschoice-for-booking2__booking-window booking-window">
                 <h4 class="booking-window__country-name"> Spain </h4>
                 <h3 class="booking-window__hotel-name"> Grand Spain Madrid</h3>
@@ -105,18 +220,38 @@
         </section>
 
          <section class="recommend">
+             <!--
+             + PixelPerfect : - не считается.
+                - блок с текстом еще както совпадает, если подстраивать.
+                - картинки нету
+                - quote_decor - тоже нету
+             + Адаптив :
+                - хотябы блоку высоту не задавала
+             + БЕМ:
+                - норм
+             + cod-style
+                - ну тут просто ужас
+             -->
         <h2 class="recommend_title">What Our  Tourist Say</h2>
-         <div class="recommend_wrap">
+         <div class="recommend_wrap"> <!-- непонятный отступ -->
           
-            <div class="picture">  </div>
-            <div class="quote">
+            <div class="picture">  </div> <!-- картинки нету -->
+            <div class="quote"> <!-- где отступы по вложенности -->
             <h4 class="recommend_text_title">Sam Sumon</h4>
+                <!-- ну ты серьезно ???? -->
             <blockquote class="quote_text"> <span class="quote_decor"></span>But I must explain to you how all this mistaken idea of account to denouncinpleasure and praising pain  But I must explain to you how all this mistaken idea of account to nai denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system was account  born and I account will give you a nai the complete account of the system</blockquote>
             </div>
         </div>
-    </section>
+    </section> <!-- отступы по вложенности -->
 
       <footer class="footer">
+          <!--
+          + PixelPerfect :
+             - высота не совпадает
+             - при наведении на ссылки - цвет не меняется
+          + БЕМ:
+             - норм
+          -->
 
         <div class="footer_wrapper">
             <h2 class="footer_title_bhromaon">Bhromaon</h2>
@@ -158,6 +293,8 @@
         </div>
     </div>
     </footer>
+
+<!-- сломанное закрытие тегов -->
 </body>
 </main>
 
